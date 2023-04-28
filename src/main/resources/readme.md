@@ -1,0 +1,1 @@
+You should either use application.properties or application.yml, depending if you will write properties or yaml syntax.
