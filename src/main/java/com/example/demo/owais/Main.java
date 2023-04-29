@@ -10,17 +10,19 @@ import java.util.List;
 @SpringBootApplication
 @RestController
 public class Main {
+
+
     public static void main(String[] args) {
         SpringApplication.run(Main.class, args);
     }
 
-    @GetMapping("/")
+/*    @GetMapping("/")
     public GreetResponse greet() {
         GreetResponse response = new GreetResponse("Hello World!", List.of("Java", "TypeScript"), new Person("Elon", 24, 1_000, true));
         return response;
     }
 
     record Person(String name, int age, double savings, boolean isTall) {}
-    record GreetResponse(String greet, List<String> favProgrammingLanguages, Person person) {}
+    record GreetResponse(String greet, List<String> favProgrammingLanguages, Person person) {}*/
 
 }
